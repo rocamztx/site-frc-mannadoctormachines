@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Loja Oficial | Manna Doctors Machine</title>
+  <meta name="description" content="Loja oficial da Manna Doctors Machine. Em breve itens exclusivos, uniformes e produtos da equipe." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <a href="index.html" style="display:flex; align-items:center; gap:12px;">
+          <img src="assets/banner.jpg" alt="MDM Logo" class="nav-logo-img" />
+          <span class="nav-logo-text">Manna Doctors <span class="accent">Machine</span></span>
+        </a>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" class="nav-link">Início</a></li>
+        <li><a href="about.html" class="nav-link">Apresentação</a></li>
+        <li><a href="modalities.html" class="nav-link">Modalidades</a></li>
+        <li><a href="awards.html" class="nav-link">Prêmios</a></li>
+        <li><a href="store.html" class="nav-link active">Loja</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- STORE HERO / EMPTY STATE -->
+  <section class="page-header" style="min-height: 80vh; display: flex; align-items: center; justify-content: center;">
+    <div class="container text-center" style="max-width: 800px; padding: 60px 20px;">
+      
+      <div class="store-badge" style="display: inline-block; padding: 8px 18px; border-radius: 50px; background: rgba(255, 106, 0, 0.12); border: 1px solid rgba(255, 106, 0, 0.4); color: #ff6a00; font-family: 'Orbitron', sans-serif; font-size: 0.85rem; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 24px;">
+        Em Breve
+      </div>
+
+      <h1 class="section-title" style="font-size: clamp(2rem, 5vw, 3.2rem); margin-bottom: 16px;">
+        Loja <span class="accent">Oficial</span>
+      </h1>
+
+      <p class="section-sub" style="font-size: 1.15rem; color: #a0a0a0; line-height: 1.7; max-width: 600px; margin: 0 auto 40px auto;">
+        Nossos produtos, uniformes e artigos exclusivos da equipe estão sendo preparados. Fique ligado para novidades!
+      </p>
+
+      <!-- EMPTY STATE PLACEHOLDER CARD -->
+      <div class="store-empty-card" style="background: rgba(255, 255, 255, 0.02); border: 1px dashed rgba(255, 106, 0, 0.35); border-radius: 20px; padding: 60px 30px; position: relative; overflow: hidden; backdrop-filter: blur(10px);">
+        
+        <div class="store-icon-ring" style="width: 80px; height: 80px; margin: 0 auto 24px auto; border-radius: 50%; background: radial-gradient(circle, rgba(255, 106, 0, 0.2) 0%, transparent 70%); display: flex; align-items: center; justify-content: center; border: 1px solid rgba(255, 106, 0, 0.3); box-shadow: 0 0 25px rgba(255, 106, 0, 0.2);">
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#ff6a00" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <path d="M16 10a4 4 0 0 1-8 0"></path>
+          </svg>
+        </div>
+
+        <h3 style="font-family: 'Orbitron', sans-serif; font-size: 1.3rem; margin-bottom: 12px; color: #fff;">
+          Vitrine em Construção
+        </h3>
+
+        <p style="color: #777; font-size: 0.95rem; max-width: 440px; margin: 0 auto 30px auto;">
+          Nenhum produto listado no momento. Logo traremos camisas, bonés, patches e acessórios da Doctors Machine.
+        </p>
+
+        <a href="index.html" class="btn-primary" style="display: inline-block;">Voltar ao Início</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <span class="footer-logo">Manna Doctors <span class="accent">Machine</span></span>
+        <p>Construindo o futuro com tecnologia, liderança e paixão pela robótica.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="about.html">Apresentação</a></li>
+          <li><a href="modalities.html">Modalidades</a></li>
+          <li><a href="awards.html">Prêmios</a></li>
+          <li><a href="store.html">Loja</a></li>
+        </ul>
+      </div>
+      <div class="footer-modalities">
+        <h4>Modalidades</h4>
+        <div class="footer-tags">
+          <span>FRC</span><span>FTC</span><span>FLL</span><span>OBR</span><span>EXPLORE</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Manna Doctors Machine. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
