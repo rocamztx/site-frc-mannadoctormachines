@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manna Doctors Machine | Equipe de Robótica</title>
+  <meta name="description" content="Manna Doctors Machine — equipe de robótica competindo nas modalidades FRC, FTC, FLL, OBR e EXPLORE. Conheça nossa equipe, modalidades e conquistas." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <a href="index.html" style="display:flex; align-items:center; gap:12px;">
+          <img src="assets/banner.jpg" alt="MDM Logo" class="nav-logo-img" />
+          <span class="nav-logo-text">Manna Doctors <span class="accent">Machine</span></span>
+        </a>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" class="nav-link active">Início</a></li>
+        <li><a href="about.html" class="nav-link">Apresentação</a></li>
+        <li><a href="modalities.html" class="nav-link">Modalidades</a></li>
+        <li><a href="awards.html" class="nav-link">Prêmios</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-particles" id="particles"></div>
+    <div class="hero-split">
+      <div class="hero-content">
+        <div class="hero-badge">Equipe de Robótica</div>
+        <h1 class="hero-title">
+          Manna Doctors<br />
+          <span class="hero-accent">Machine</span>
+        </h1>
+        <p class="hero-subtitle">Inovação, engenharia e paixão por robótica.<br />Competindo nas maiores ligas do mundo.</p>
+        <div class="hero-modalities">
+          <span class="mod-badge frc">FRC</span>
+          <span class="mod-badge ftc">FTC</span>
+          <span class="mod-badge fll">FLL</span>
+          <span class="mod-badge obr">OBR</span>
+          <span class="mod-badge explore">EXPLORE</span>
+        </div>
+        <a href="about.html" class="btn-primary">Conheça a Equipe</a>
+      </div>
+      <!-- ADDED 3D TILT ATTRIBUTES -->
+      <div class="hero-banner-wrap" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.5" style="transform-style: preserve-3d;">
+        <img src="assets/banner.jpg" alt="Bandeira Manna Doctors Machine" class="hero-banner-img" style="transform: translateZ(30px);" />
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Role para baixo</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <img src="assets/banner.jpg" alt="MDM Logo" class="footer-logo" />
+          <div>
+            <h3>Manna Doctors Machine</h3>
+            <p>Equipe de Robótica Competitiva</p>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Modalidades</h4>
+          <ul>
+            <li><a href="modalities.html#mod-frc">FRC</a></li>
+            <li><a href="modalities.html#mod-ftc">FTC</a></li>
+            <li><a href="modalities.html#mod-fll">FLL</a></li>
+            <li><a href="modalities.html#mod-obr">OBR</a></li>
+            <li><a href="modalities.html#mod-explore">EXPLORE</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="about.html">Apresentação</a></li>
+            <li><a href="modalities.html">Modalidades</a></li>
+            <li><a href="awards.html">Prêmios</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Manna Doctors Machine. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <!-- VANILLA TILT JS FOR 3D EFFECT -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+</body>
+</html>

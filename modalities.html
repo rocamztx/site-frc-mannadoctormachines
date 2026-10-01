@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modalidades | Manna Doctors Machine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar scrolled" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <a href="index.html" style="display:flex; align-items:center; gap:12px;">
+          <img src="assets/banner.jpg" alt="MDM Logo" class="nav-logo-img" />
+          <span class="nav-logo-text">Manna Doctors <span class="accent">Machine</span></span>
+        </a>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" class="nav-link">Início</a></li>
+        <li><a href="about.html" class="nav-link">Apresentação</a></li>
+        <li><a href="modalities.html" class="nav-link active">Modalidades</a></li>
+        <li><a href="awards.html" class="nav-link">Prêmios</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div style="padding-top: 100px;"></div>
+
+  <!-- MODALIDADES -->
+  <section class="section section-dark" id="modalities">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Competições</span>
+        <h2 class="section-title">Nossas <span class="accent">Modalidades</span></h2>
+        <p class="section-subtitle">Atuamos em cinco das principais competições de robótica do mundo</p>
+      </div>
+
+      <div class="modality-tabs">
+        <button class="mod-tab active" data-modal="frc" id="tab-frc">FRC</button>
+        <button class="mod-tab" data-modal="ftc" id="tab-ftc">FTC</button>
+        <button class="mod-tab" data-modal="fll" id="tab-fll">FLL</button>
+        <button class="mod-tab" data-modal="obr" id="tab-obr">OBR</button>
+        <button class="mod-tab" data-modal="explore" id="tab-explore">EXPLORE</button>
+      </div>
+
+      <!-- FRC -->
+      <div class="mod-content active" id="mod-frc">
+        <div class="mod-layout">
+          <div class="mod-info">
+            <div class="mod-header frc-color">
+              <span class="mod-category">FIRST Robotics Competition</span>
+              <h3 class="mod-name">FRC</h3>
+              <p class="mod-tagline">A maior liga de robótica do mundo</p>
+            </div>
+            <div class="mod-description">
+              <p>O <strong>FIRST Robotics Competition (FRC)</strong> é a mais alta divisão de competições FIRST, voltada para estudantes do ensino médio. Cada temporada, as equipes recebem um novo desafio e têm apenas 6 semanas para projetar, construir e programar um robô de grande porte capaz de competir em arenas espetaculares.</p>
+              <p>A competição vai muito além da tecnologia — envolve gestão de equipe, captação de recursos, documentação técnica e o famoso espírito do <em>"Gracious Professionalism"</em>.</p>
+              <ul class="mod-highlights">
+                <li>Robôs de até 125 lbs / 56 kg</li>
+                <li>6 semanas de build season</li>
+                <li>Competições regionais e campeonato mundial</li>
+                <li>Ênfase em STEAM e mentoria</li>
+              </ul>
+            </div>
+          </div>
+          <div class="mod-awards-preview" id="awards-frc">
+            <h4 class="awards-preview-title">Conquistas FRC</h4>
+            <div class="award-item">
+              <div>
+                <strong>Campeão Regional</strong>
+                <span>São Paulo Regional — 2024</span>
+              </div>
+            </div>
+            <div class="award-item">
+              <div>
+                <strong>Excellence in Engineering</strong>
+                <span>Brasil Regional — 2023</span>
+              </div>
+            </div>
+            <div class="award-item">
+              <div>
+                <strong>Rookie All-Star</strong>
+                <span>Primeiro ano de competição</span>
+              </div>
+            </div>
+            <a href="awards.html" class="awards-link">Ver todos os prêmios →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- FTC -->
+      <div class="mod-content" id="mod-ftc">
+        <div class="mod-layout">
+          <div class="mod-info">
+            <div class="mod-header ftc-color">
+              <span class="mod-category">FIRST Tech Challenge</span>
+              <h3 class="mod-name">FTC</h3>
+              <p class="mod-tagline">Tecnologia acessível e competição de alto nível</p>
+            </div>
+            <div class="mod-description">
+              <p>O <strong>FIRST Tech Challenge (FTC)</strong> é voltado para estudantes do ensino médio que desejam aprender robótica usando kits acessíveis e programação Android/Java. É a ponte perfeita entre o FLL e o FRC.</p>
+              <p>As equipes constroem robôs menores e ágeis, competindo em desafios baseados em jogo, onde autonomia, teleoperação e pensamento estratégico são fundamentais.</p>
+              <ul class="mod-highlights">
+                <li>Programação Android / Java / Blocks</li>
+                <li>Robôs compactos e ágeis</li>
+                <li>Modo autônomo + teleoperado</li>
+                <li>Portfolio técnico avaliado</li>
+              </ul>
+            </div>
+          </div>
+          <div class="mod-awards-preview" id="awards-ftc">
+            <h4 class="awards-preview-title">Conquistas FTC</h4>
+            <div class="award-item">
+              <div>
+                <strong>Vice-campeão Estadual</strong>
+                <span>Torneio FTC SP — 2024</span>
+              </div>
+            </div>
+            <div class="award-item">
+              <div>
+                <strong>Think Award</strong>
+                <span>Reconhecimento pelo processo de engenharia</span>
+              </div>
+            </div>
+            <a href="awards.html" class="awards-link">Ver todos os prêmios →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- FLL -->
+      <div class="mod-content" id="mod-fll">
+        <div class="mod-layout">
+          <div class="mod-info">
+            <div class="mod-header fll-color">
+              <span class="mod-category">FIRST LEGO League</span>
+              <h3 class="mod-name">FLL</h3>
+              <p class="mod-tagline">Onde tudo começa: LEGO, ciência e criatividade</p>
+            </div>
+            <div class="mod-description">
+              <p>O <strong>FIRST LEGO League (FLL)</strong> é uma competição para jovens de 9 a 16 anos que utilizam robôs LEGO para resolver missões em uma mesa de jogo temática, além de desenvolver um projeto de inovação sobre um problema real do mundo.</p>
+              <p>É onde muitos dos nossos membros deram seus primeiros passos na robótica — desenvolvendo raciocínio lógico, criatividade e os valores fundamentais do FIRST.</p>
+              <ul class="mod-highlights">
+                <li>Robôs LEGO MINDSTORMS / SPIKE</li>
+                <li>Projeto de inovação com impacto real</li>
+                <li>Missões cronometradas na mesa de jogo</li>
+                <li>Faixa etária: 9–16 anos</li>
+              </ul>
+            </div>
+          </div>
+          <div class="mod-awards-preview" id="awards-fll">
+            <h4 class="awards-preview-title">Conquistas FLL</h4>
+            <div class="award-item">
+              <div>
+                <strong>Campeão Nacional</strong>
+                <span>FLL Brasil — 2023</span>
+              </div>
+            </div>
+            <div class="award-item">
+              <div>
+                <strong>Representação Internacional</strong>
+                <span>FIRST Championship — Houston, TX</span>
+              </div>
+            </div>
+            <div class="award-item">
+              <div>
+                <strong>Core Values Award</strong>
+                <span>Melhor espírito de equipe</span>
+              </div>
+            </div>
+            <a href="awards.html" class="awards-link">Ver todos os prêmios →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- OBR -->
+      <div class="mod-content" id="mod-obr">
+        <div class="mod-layout">
+          <div class="mod-info">
+            <div class="mod-header obr-color">
+              <span class="mod-category">Olimpíada Brasileira de Robótica</span>
+              <h3 class="mod-name">OBR</h3>
+              <p class="mod-tagline">Desafio nacional de robótica autônoma</p>
+            </div>
+            <div class="mod-description">
+              <p>A <strong>Olimpíada Brasileira de Robótica (OBR)</strong> é uma das maiores competições de robótica do Brasil, promovida por universidades federais e apoiada pelo Ministério da Educação. O foco é em robótica autônoma, especialmente em missões de resgate simulado.</p>
+              <p>A OBR é dividida em modalidades teórica e prática, exigindo tanto conhecimento técnico quanto capacidade de programar robôs para agir de forma completamente independente.</p>
+              <ul class="mod-highlights">
+                <li>Fase teórica (física e lógica)</li>
+                <li>Robô autônomo de resgate</li>
+                <li>Labirintos e sensores</li>
+                <li>Etapas regionais e nacional</li>
+              </ul>
+            </div>
+          </div>
+          <div class="mod-awards-preview" id="awards-obr">
+            <h4 class="awards-preview-title">Conquistas OBR</h4>
+            <div class="award-item">
+              <div>
+                <strong>1º Lugar Regional</strong>
+                <span>OBR — Fase Estadual SP 2024</span>
+              </div>
+            </div>
+            <div class="award-item">
+              <div>
+                <strong>3º Lugar Nacional</strong>
+                <span>OBR — Fase Nacional 2023</span>
+              </div>
+            </div>
+            <a href="awards.html" class="awards-link">Ver todos os prêmios →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- EXPLORE -->
+      <div class="mod-content" id="mod-explore">
+        <div class="mod-layout">
+          <div class="mod-info">
+            <div class="mod-header explore-color">
+              <span class="mod-category">FIRST LEGO League Explore</span>
+              <h3 class="mod-name">EXPLORE</h3>
+              <p class="mod-tagline">Descoberta, criatividade e primeiros passos</p>
+            </div>
+            <div class="mod-description">
+              <p>O <strong>FIRST LEGO League Explore</strong> é a divisão introdutória do programa FIRST para crianças de 6 a 10 anos. Focado em brincadeira e exploração, o programa incentiva as crianças a aprender sobre ciência, tecnologia e engenharia de forma lúdica.</p>
+              <p>As equipes constroem modelos LEGO motorizados e desenvolvem apresentações sobre temas científicos relevantes, sendo avaliadas pela criatividade, trabalho em equipe e pelo processo de aprendizagem.</p>
+              <ul class="mod-highlights">
+                <li>Faixa etária: 6–10 anos</li>
+                <li>Modelos LEGO motorizados (WeDo)</li>
+                <li>Exposição de descobertas</li>
+                <li>Foco em aprendizado e diversão</li>
+              </ul>
+            </div>
+          </div>
+          <div class="mod-awards-preview" id="awards-explore">
+            <h4 class="awards-preview-title">Conquistas EXPLORE</h4>
+            <div class="award-item">
+              <div>
+                <strong>Destaque de Apresentação</strong>
+                <span>FLL Explore Brasil — 2024</span>
+              </div>
+            </div>
+            <div class="award-item">
+              <div>
+                <strong>Melhor Modelo</strong>
+                <span>Regional SP — 2023</span>
+              </div>
+            </div>
+            <a href="awards.html" class="awards-link">Ver todos os prêmios →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <img src="assets/banner.jpg" alt="MDM Logo" class="footer-logo" />
+          <div>
+            <h3>Manna Doctors Machine</h3>
+            <p>Equipe de Robótica Competitiva</p>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Modalidades</h4>
+          <ul>
+            <li><a href="modalities.html#mod-frc">FRC</a></li>
+            <li><a href="modalities.html#mod-ftc">FTC</a></li>
+            <li><a href="modalities.html#mod-fll">FLL</a></li>
+            <li><a href="modalities.html#mod-obr">OBR</a></li>
+            <li><a href="modalities.html#mod-explore">EXPLORE</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="about.html">Apresentação</a></li>
+            <li><a href="modalities.html">Modalidades</a></li>
+            <li><a href="awards.html">Prêmios</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Manna Doctors Machine. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

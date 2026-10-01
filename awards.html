@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prêmios | Manna Doctors Machine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar scrolled" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <a href="index.html" style="display:flex; align-items:center; gap:12px;">
+          <img src="assets/banner.jpg" alt="MDM Logo" class="nav-logo-img" />
+          <span class="nav-logo-text">Manna Doctors <span class="accent">Machine</span></span>
+        </a>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" class="nav-link">Início</a></li>
+        <li><a href="about.html" class="nav-link">Apresentação</a></li>
+        <li><a href="modalities.html" class="nav-link">Modalidades</a></li>
+        <li><a href="awards.html" class="nav-link active">Prêmios</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div style="padding-top: 100px;"></div>
+
+  <!-- PRÊMIOS -->
+  <section class="section" id="awards">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Conquistas</span>
+        <h2 class="section-title">Nossos <span class="accent">Prêmios</span></h2>
+        <p class="section-subtitle">Uma trajetória marcada por excelência e dedicação</p>
+      </div>
+
+      <div class="awards-filter">
+        <button class="filter-btn active" data-filter="all" id="filter-all">Todos</button>
+        <button class="filter-btn frc-filter" data-filter="frc" id="filter-frc">FRC</button>
+        <button class="filter-btn ftc-filter" data-filter="ftc" id="filter-ftc">FTC</button>
+        <button class="filter-btn fll-filter" data-filter="fll" id="filter-fll">FLL</button>
+        <button class="filter-btn obr-filter" data-filter="obr" id="filter-obr">OBR</button>
+        <button class="filter-btn explore-filter" data-filter="explore" id="filter-explore">EXPLORE</button>
+      </div>
+
+      <div class="awards-grid" id="awards-grid">
+
+        <!-- ===== FRC ===== -->
+        <div class="award-card gold" data-category="frc">
+          <div class="award-card-top"><span class="award-tag frc">FRC</span></div>
+          <h4>Equipe Campeã</h4>
+          <p>Regional Osasco</p>
+          <span class="award-year">2026</span>
+        </div>
+
+        <div class="award-card silver" data-category="frc">
+          <div class="award-card-top"><span class="award-tag frc">FRC</span></div>
+          <h4>Destaque em Controle &amp; Aliança Finalista</h4>
+          <p>Torneio Off Season</p>
+          <span class="award-year">2025</span>
+        </div>
+
+        <div class="award-card bronze" data-category="frc">
+          <div class="award-card-top"><span class="award-tag frc">FRC</span></div>
+          <h4>Design Industrial</h4>
+          <p>Season 2025</p>
+          <span class="award-year">2025</span>
+        </div>
+
+        <div class="award-card silver" data-category="frc">
+          <div class="award-card-top"><span class="award-tag frc">FRC</span></div>
+          <h4>Prêmio de Design &amp; Aliança Finalista</h4>
+          <p>Off Season Mato Grosso</p>
+          <span class="award-year">2024</span>
+        </div>
+
+        <div class="award-card silver" data-category="frc">
+          <div class="award-card-top"><span class="award-tag frc">FRC</span></div>
+          <h4>Girls in STEM Award</h4>
+          <p>Reconhecimento à diversidade e inclusão</p>
+          <span class="award-year">2024</span>
+        </div>
+
+        <div class="award-card bronze" data-category="frc">
+          <div class="award-card-top"><span class="award-tag frc">FRC</span></div>
+          <h4>Leadership Award</h4>
+          <p>Off Season 2023 — Gabrielly Gabardo</p>
+          <span class="award-year">2023</span>
+        </div>
+
+        <!-- ===== FTC ===== -->
+        <div class="award-card gold" data-category="ftc">
+          <div class="award-card-top"><span class="award-tag ftc">FTC</span></div>
+          <h4>Prêmio Inovação</h4>
+          <p>Torneio Oficial FTC</p>
+          <span class="award-year">2025</span>
+        </div>
+
+        <div class="award-card silver" data-category="ftc">
+          <div class="award-card-top"><span class="award-tag ftc">FTC</span></div>
+          <h4>Prêmio Motivação</h4>
+          <p>Off Season FTC</p>
+          <span class="award-year">2025</span>
+        </div>
+
+        <!-- ===== FLL ===== -->
+        <div class="award-card bronze" data-category="fll">
+          <div class="award-card-top"><span class="award-tag fll">FLL</span></div>
+          <h4>3º Lugar Nacional</h4>
+          <p>FLL Brasil</p>
+          <span class="award-year">2017/2018</span>
+        </div>
+
+        <div class="award-card gold" data-category="fll">
+          <div class="award-card-top"><span class="award-tag fll">FLL</span></div>
+          <h4>1º Lugar — Estratégia e Inovação</h4>
+          <p>FLL Regional</p>
+          <span class="award-year">2018/2019</span>
+        </div>
+
+        <div class="award-card silver" data-category="fll">
+          <div class="award-card-top"><span class="award-tag fll">FLL</span></div>
+          <h4>2º Lugar Champions Award</h4>
+          <p>FLL Nacional</p>
+          <span class="award-year">2018/2019</span>
+        </div>
+
+        <div class="award-card bronze" data-category="fll">
+          <div class="award-card-top"><span class="award-tag fll">FLL</span></div>
+          <h4>3º Lugar — City Shaper</h4>
+          <p>FLL Regional</p>
+          <span class="award-year">2019/2020</span>
+        </div>
+
+        <div class="award-card silver" data-category="fll">
+          <div class="award-card-top"><span class="award-tag fll">FLL</span></div>
+          <h4>2º Lugar Champions Award — Replay</h4>
+          <p>FLL Regional</p>
+          <span class="award-year">2020/2021</span>
+        </div>
+
+        <div class="award-card gold" data-category="fll">
+          <div class="award-card-top"><span class="award-tag fll">FLL</span></div>
+          <h4>1º Lugar Design de Robô</h4>
+          <p>FLL Brasil</p>
+          <span class="award-year">2023/2024</span>
+        </div>
+
+        <div class="award-card gold" data-category="fll">
+          <div class="award-card-top"><span class="award-tag fll">FLL</span></div>
+          <h4>1º Lugar Corvellius</h4>
+          <p>FLL Brasil</p>
+          <span class="award-year">2023/2024</span>
+        </div>
+
+        <div class="award-card silver" data-category="fll">
+          <div class="award-card-top"><span class="award-tag fll">FLL</span></div>
+          <h4>2º Lugar Desempenho do Robô</h4>
+          <p>FLL Brasil</p>
+          <span class="award-year">2023/2024</span>
+        </div>
+
+        <div class="award-card bronze" data-category="fll">
+          <div class="award-card-top"><span class="award-tag fll">FLL</span></div>
+          <h4>Técnico Destaque</h4>
+          <p>FLL Brasil</p>
+          <span class="award-year">2024/2025</span>
+        </div>
+
+        <div class="award-card silver" data-category="fll">
+          <div class="award-card-top"><span class="award-tag fll">FLL</span></div>
+          <h4>2º Lugar Desempenho do Robô</h4>
+          <p>FLL Brasil</p>
+          <span class="award-year">2024/2025</span>
+        </div>
+
+        <div class="award-card silver" data-category="fll">
+          <div class="award-card-top"><span class="award-tag fll">FLL</span></div>
+          <h4>2º Lugar Champions Award</h4>
+          <p>FLL Brasil</p>
+          <span class="award-year">2025/2026</span>
+        </div>
+
+        <div class="award-card gold" data-category="fll">
+          <div class="award-card-top"><span class="award-tag fll">FLL</span></div>
+          <h4>1º Lugar Estratégia/Inovação</h4>
+          <p>FLL Regional — Bioglow</p>
+          <span class="award-year">2026/2027</span>
+        </div>
+
+        <div class="award-card gold" data-category="fll">
+          <div class="award-card-top"><span class="award-tag fll">FLL</span></div>
+          <h4>1º Lugar Bioglow FLL</h4>
+          <p>FLL Bioglow</p>
+          <span class="award-year">2026/2027</span>
+        </div>
+
+        <div class="award-card gold" data-category="fll">
+          <div class="award-card-top"><span class="award-tag fll">FLL</span></div>
+          <h4>1º Lugar Champions Award — City Shaper</h4>
+          <p>FLL Regional</p>
+          <span class="award-year">City Shaper</span>
+        </div>
+
+        <div class="award-card bronze" data-category="fll">
+          <div class="award-card-top"><span class="award-tag fll">FLL</span></div>
+          <h4>Core Values</h4>
+          <p>Cargo Connect</p>
+          <span class="award-year">Cargo Connect</span>
+        </div>
+
+        <div class="award-card bronze" data-category="fll">
+          <div class="award-card-top"><span class="award-tag fll">FLL</span></div>
+          <h4>3º Lugar — Cargo Connect</h4>
+          <p>Regional Paraná</p>
+          <span class="award-year">Cargo Connect</span>
+        </div>
+
+        <div class="award-card gold" data-category="fll">
+          <div class="award-card-top"><span class="award-tag fll">FLL</span></div>
+          <h4>1º Lugar Desempenho do Robô</h4>
+          <p>Cargo Connect</p>
+          <span class="award-year">Cargo Connect</span>
+        </div>
+
+        <div class="award-card gold" data-category="fll">
+          <div class="award-card-top"><span class="award-tag fll">FLL</span></div>
+          <h4>1º Lugar Desafio do Robô</h4>
+          <p>Cargo Connect</p>
+          <span class="award-year">Cargo Connect</span>
+        </div>
+
+        <!-- ===== OBR ===== -->
+        <div class="award-card silver" data-category="obr">
+          <div class="award-card-top"><span class="award-tag obr">OBR</span></div>
+          <h4>2º Lugar — Nível 1</h4>
+          <p>OBR</p>
+          <span class="award-year">2016</span>
+        </div>
+
+        <div class="award-card gold" data-category="obr">
+          <div class="award-card-top"><span class="award-tag obr">OBR</span></div>
+          <h4>Campeão — Regional Amistoso</h4>
+          <p>OBR</p>
+          <span class="award-year">2016</span>
+        </div>
+
+        <div class="award-card bronze" data-category="obr">
+          <div class="award-card-top"><span class="award-tag obr">OBR</span></div>
+          <h4>Prêmio Estreante</h4>
+          <p>OBR</p>
+          <span class="award-year">2016</span>
+        </div>
+
+        <div class="award-card bronze" data-category="obr">
+          <div class="award-card-top"><span class="award-tag obr">OBR</span></div>
+          <h4>3º Lugar — Nível 1</h4>
+          <p>OBR</p>
+          <span class="award-year">2017</span>
+        </div>
+
+        <div class="award-card bronze" data-category="obr">
+          <div class="award-card-top"><span class="award-tag obr">OBR</span></div>
+          <h4>Prêmio Elegância</h4>
+          <p>OBR</p>
+          <span class="award-year">2017</span>
+        </div>
+
+        <div class="award-card bronze" data-category="obr">
+          <div class="award-card-top"><span class="award-tag obr">OBR</span></div>
+          <h4>Prêmio Inovação</h4>
+          <p>OBR</p>
+          <span class="award-year">2017</span>
+        </div>
+
+        <div class="award-card bronze" data-category="obr">
+          <div class="award-card-top"><span class="award-tag obr">OBR</span></div>
+          <h4>Prêmio Escola Pública</h4>
+          <p>OBR</p>
+          <span class="award-year">2017</span>
+        </div>
+
+        <div class="award-card bronze" data-category="obr">
+          <div class="award-card-top"><span class="award-tag obr">OBR</span></div>
+          <h4>Prêmio Programação</h4>
+          <p>OBR</p>
+          <span class="award-year">2018</span>
+        </div>
+
+        <div class="award-card bronze" data-category="obr">
+          <div class="award-card-top"><span class="award-tag obr">OBR</span></div>
+          <h4>Prêmio Inovação</h4>
+          <p>OBR</p>
+          <span class="award-year">2019</span>
+        </div>
+
+        <div class="award-card bronze" data-category="obr">
+          <div class="award-card-top"><span class="award-tag obr">OBR</span></div>
+          <h4>3º Lugar — Nível 2</h4>
+          <p>OBR</p>
+          <span class="award-year">2022</span>
+        </div>
+
+        <div class="award-card silver" data-category="obr">
+          <div class="award-card-top"><span class="award-tag obr">OBR</span></div>
+          <h4>2º Lugar — Nível 2</h4>
+          <p>OBR</p>
+          <span class="award-year">2023</span>
+        </div>
+
+        <div class="award-card silver" data-category="obr">
+          <div class="award-card-top"><span class="award-tag obr">OBR</span></div>
+          <h4>2º Lugar</h4>
+          <p>OBR</p>
+          <span class="award-year">2025</span>
+        </div>
+
+        <div class="award-card bronze" data-category="obr">
+          <div class="award-card-top"><span class="award-tag obr">OBR</span></div>
+          <h4>Prêmio Design</h4>
+          <p>OBR</p>
+          <span class="award-year">2025</span>
+        </div>
+
+        <div class="award-card bronze" data-category="obr">
+          <div class="award-card-top"><span class="award-tag obr">OBR</span></div>
+          <h4>Melhor Escola Pública</h4>
+          <p>OBR</p>
+          <span class="award-year">2025</span>
+        </div>
+
+        <div class="award-card silver" data-category="obr">
+          <div class="award-card-top"><span class="award-tag obr">OBR</span></div>
+          <h4>2º Lugar</h4>
+          <p>OBR</p>
+          <span class="award-year">2026</span>
+        </div>
+
+        <div class="award-card bronze" data-category="obr">
+          <div class="award-card-top"><span class="award-tag obr">OBR</span></div>
+          <h4>Prêmio Robustez</h4>
+          <p>OBR</p>
+          <span class="award-year">2026</span>
+        </div>
+
+        <div class="award-card bronze" data-category="obr">
+          <div class="award-card-top"><span class="award-tag obr">OBR</span></div>
+          <h4>Prêmio Design</h4>
+          <p>OBR</p>
+          <span class="award-year">2026</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <img src="assets/banner.jpg" alt="MDM Logo" class="footer-logo" />
+          <div>
+            <h3>Manna Doctors Machine</h3>
+            <p>Equipe de Robótica Competitiva</p>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Modalidades</h4>
+          <ul>
+            <li><a href="modalities.html#mod-frc">FRC</a></li>
+            <li><a href="modalities.html#mod-ftc">FTC</a></li>
+            <li><a href="modalities.html#mod-fll">FLL</a></li>
+            <li><a href="modalities.html#mod-obr">OBR</a></li>
+            <li><a href="modalities.html#mod-explore">EXPLORE</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="about.html">Apresentação</a></li>
+            <li><a href="modalities.html">Modalidades</a></li>
+            <li><a href="awards.html">Prêmios</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Manna Doctors Machine. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
